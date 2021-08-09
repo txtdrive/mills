@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%
+	height:100%;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+  	font-family: 'Kiwi Maru', serif;
+}
+
+body {
+	width: 100%;
+	height:100%;
+	background-color: #fefefe;
+	color: #222;
+}
+
+section#wrapper{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	padding: 2rem 0 2rem 0;
+	margin-bottom: 1rem;
+}
+
+header p img{
+	width: 1.5rem;
+	height: auto;
+	display: inline;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 2.5rem;
+	color: #fefefe;
+}
+
+h3{
+	color: #fefefe;
+}
+
+span{
+	color: #93100f;
+	font-weight: bold;
+}
+
+em{
+	font-size: 3rem;
+	color: #93100f;
+	font-weight: bold;
+	font-style: normal;
+}
+
+nav{
+	width: 100%;  /*この値は任意*/
+}
+
+nav li{
+	margin-bottom: 1rem; 
+	font-size: 2rem;
+	list-style: none;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #000;
+}
+
+main{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+ul li{
+	list-style-position: inside;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	padding: 2rem 0 2rem 0;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: #93100f;
+}
+
+footer address{
+	width: 100%;
+}
+
+address p{
+	font-size: 1.5rem;
+}
+
+/*セクション1*/
+
+.s1{
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1627925330/0623_ybps18.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.s1 .gauss{
+	line-height: 3rem;
+}
+
+.s1 header img{
+	width: 8.5rem;
+	height: auto;
+}
+
+/*セクション2*/
+
+.s2{
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477069/mills/s2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.s2 .gauss img{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.s2 .shop h2{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #93100f;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.s2 .product dt{
+	display: list-item;
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477063/mills/accept_64_8f100f.png");
+	list-style-position: inside;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.s2 .shop dl dd{
+	border-bottom: 1px dotted #222;
+}
+
+.online{
+	max-height: 200px;
+	width: auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.online dd{
+	padding-top: 20%;
+}
+
+/*セクション3*/
+
+.s3{
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477077/mills/s3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.s3 main{
+	max-width: 700px;
+	padding-bottom: 5rem;
+}
+
+.s3 h2{
+	color: #222;
+	margin-bottom: 2rem;
+}
+
+.s3 dt{
+	display: list-item;
+	list-style-position: inside;
+	font-size: 1.6rem;
+}
+
+.s3 dd{
+	padding-left: 3rem;
+	font-size: 1.6rem;
+}
+
+.ex1{
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477062/mills/user_full_8.png");
+}
+
+.ex2{
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477061/mills/home_8.png");
+}
+
+/*セクション4*/
+
+.s4{
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477068/mills/s4.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top middle;
+}
+
+.s4 ul{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	list-style-position: inside;
+}
+
+.s4 ul li.phone{
+	list-style-image:url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477061/mills/mobile_phone_18.png"); 
+}
+
+.s4 ul li.mail{
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477061/mills/mail_18.png");
+}
+
+/*フッターナビゲーション*/
+
+.bottom{
+	margin-top: 3rem;
+	height: 3rem;
+	width: auto;
+}
+
+.bottom li{
+	list-style-type: none;
+	font-weight: bold;
+	padding-right: 1rem;
+	display: inline;
+}
+
+.bottom img{
+	width: 2rem;
+	height: auto;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+	text-align: center;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li{
+	width: 0;
+	margin: 10px;
+}
+
+.shop dt{
+	display: list-item;
+	list-style-position: inside;
+	list-style-type: none;
+	float: left;
+}
+
+.shop dd{
+	border-bottom: 1px dotted #222;
+	text-align: right;
+}
+
+.black{
+	color: #222;
+}
+
+.white{
+	color: #fefefe;
+}
+
+.red{
+	color: #93100f;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textleft{
+	text-align: left;
+}
+
+.textright{
+	text-align: right;
+}
+
+.gauss{
+    background-color: rgba( 255, 255, 255, 0.7);
+    padding: 1rem;
+    border-radius: 1rem;
+    z-index: 500;
+}
+
+.padding{
+	padding:2rem;
+}
+
+.border{
+	border:1px solid #000;
+}
+
+.dashed{
+	border: 1px dashed #000;
+}
+
+.half{
+	width: 44%;
+}
+
+.full{
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media only screen and (max-width: 765px){
+html {
+  font-size: calc(100vw / 60);
+}
+
+.s1{
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628137516/0623_crop_g8vjbv.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.s2{
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477069/mills/s2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.s3{
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477077/mills/s3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s4{
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477068/mills/s4.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.lv1{
+	width: 95%;
+	display: block;
+	padding: 1rem;
+}
+
+}

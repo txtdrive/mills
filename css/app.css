@@ -34,7 +34,7 @@ header{
 }
 
 header p img{
-	width: 3rem;
+	width: 3.3rem;
 	height: auto;
 	display: inline;
 }
@@ -215,10 +215,10 @@ address p{
 /*セクション4*/
 
 .s4{
-	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477068/mills/s4.png");
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1629126903/s4_xgwt5p.png");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: top middle;
+    background-position: 50% 40%;
 }
 
 .s4 ul{
@@ -228,11 +228,11 @@ address p{
 }
 
 .s4 ul li.phone{
-	list-style-image:url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1628477061/mills/mobile_phone_18.png"); 
+	list-style-image:url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477061/mills/mobile_phone_18.png"); 
 }
 
 .s4 ul li.mail{
-	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1628477061/mills/mail_18.png");
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477061/mills/mail_18.png");
 }
 
 /*フッターナビゲーション*/
@@ -364,7 +364,7 @@ html {
 	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477069/mills/s2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 20% 50%;
+    background-position: 50% 50%;
 }
 
 .s3{
@@ -375,10 +375,10 @@ html {
 }
 
 .s4{
-	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477068/mills/s4.png");
+	background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1629126903/s4_xgwt5p.png");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 75% 50%;
 }
 
 .lv1{

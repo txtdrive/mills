@@ -33,6 +33,10 @@ header{
 	margin-bottom: 1rem;
 }
 
+header p{
+	padding-right: 5rem;
+}
+
 header p img{
 	width: 3.3rem;
 	height: auto;
